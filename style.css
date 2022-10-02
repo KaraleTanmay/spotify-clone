@@ -1,0 +1,91 @@
+#nav-bar{
+    height: 9vh;
+    width: 100vw;
+}
+#logo-img{
+    max-height: 4.5vh;
+    filter: invert(1);
+}
+#home-icon{
+    padding: 0.6rem;
+    border-radius: 5rem;
+}
+#search-icon{
+    position: relative;
+    top:0.57px;
+    padding: 0.56rem;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+}
+#search-box{
+    width: 26vw;
+    padding: 1.05rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+#login-icon{
+    padding: 0.6rem;
+    border-radius: 5rem;
+}
+
+
+.container{
+    height: 79vh;
+    width: 100vw;
+}
+#now-playing{
+    height: 100%;
+    width: 30vw;
+    margin-left: 0.5rem;
+}
+#now-playing img{
+    /* height: 100%; */
+    width: 30vw;
+    opacity: 0.5;
+}
+#songs{
+    height: 100%;
+    width: 68vw;
+    margin-right: 0.5rem;
+}
+.song-item{
+    height: 40%;
+    width: 21%;
+    cursor: pointer;
+}
+.song-item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.bottom{
+    height: 12vh;
+    width: 100vw;
+}
+.player{
+    height: 8vh;
+}
+.player img{
+    height: 8vh;
+    /* width: 8vw; */
+}
+#song-info{
+    margin-left: 1vw;
+    width: 19vw;
+}
+#play-settings{
+    width: 56vw;
+    height: 10vh;
+}
+#progress-bar{
+    width: 30vw;
+}
+.control-icons{
+    cursor: pointer;
+}
+#volume{
+    margin-right: 1vw;
+    width: 19vw;
+}

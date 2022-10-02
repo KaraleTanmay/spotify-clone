@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify, Enjoy your favourite music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body class="bg-black">
+
+    <nav class="flex-row jtf-btn bg-black aln-center" id="nav-bar">
+        <div class="nav-items mx-3" id="logo">
+            <img src="./images/logo.png" alt="spotify-logo" id="logo-img">
+        </div>
+        <div class="nav-items flex-row aln-center" id="search-bar">
+            <i class="fa fa-2x fa-home mx-3 bg-gray text-white" aria-hidden="true" id="home-icon"></i>
+            <i class="fa fa-search fa-2x bg-gray text-white" aria-hidden="true" id="search-icon"></i>
+            <input class="bg-gray pd-3" type="text" id="search-box" placeholder="What do you want to listen to?">
+        </div>
+        <div class="nav-items mx-3" id="login">
+            <a href="#"><i class="fa fa-2x text-white bg-gray fa-user-circle-o" aria-hidden="true"
+                    id="login-icon"></i></a>
+        </div>
+    </nav>
+
+    <div class="container flex-row jtf-and bg-black">
+        <div class=" flex-row aln-center bg-gray box-bdr" id="now-playing">
+            <img src="" alt="" id="now-playing-img">
+        </div>
+        <div class="flex-row jtf-and aln-center wrapper bg-gray box-bdr" id="songs">
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+            <div class="song-item">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom flex-row jtf-btn aln-center">
+        <div class="player flex-row jtf-and aln-center" id="song-info">
+            <div><img src="" alt="" id="now-playing-img-2"> </div>
+            <div class="text-white">
+                <span id="song-name"></span>
+            </div>
+            <div>
+                <i class="fa fa-heart-o text-white" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="player flex-clm aln-center jtf-center" id="play-settings">
+            <div class="flex-row jtf-and aln-center" id="controls">
+                <i class="fa fa-step-backward control-icons text-white" aria-hidden="true"></i>
+                <i class="fa fa-play-circle-o control-icons text-white fa-2x" aria-hidden="true" id="master-play"></i>
+                <i class="fa fa-step-forward control-icons text-white" aria-hidden="true"></i>
+            </div>
+            <div class="flex-row aln-center">
+                <span class="text-white mx-3">0:00</span>
+                <input class="range-bar" type="range" value="0" min="0" max="100" id="progress-bar">
+                <span class="text-white mx-3" id="song-length">Timer</span>
+            </div>
+        </div>
+        <div class="player flex-row jtf-center aln-center" id="volume">
+            <i class="fa fa-volume-up text-white mx-3" aria-hidden="true"></i>
+            <input class="range-bar" id="volume-bar" type="range" min="0" max="100">
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
